@@ -1,0 +1,144 @@
+.hero_bg img{
+    height: 550px;
+    width: 100%;
+}
+
+.hero_text{
+    padding:  0 2%;
+    width: 100% !important;
+}
+.hero_text h1{
+    width: 100%;
+}
+.hero_text p{
+    margin-top: 15px;
+}
+
+.hero_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  auto;
+   gap: 30px;
+   width: 100%;
+   margin-top: 25px;
+}
+
+.hero_btn button{
+    padding: 15px 40px;
+    background-color: #268203;
+    color: #fff;
+    border: none;
+}
+
+
+.explore_bg{
+    padding: 0 15%;
+    margin-top: 50px;
+}
+
+.explore_heading{
+    text-align: center;
+}
+
+.explore_card_bg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.explore_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10%;
+    padding-block: 30px;
+    align-items: center;
+    background-color: #268203;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.explore_card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.level_dash{
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    margin-top: 20px;
+}
+.level_dash h1{
+    padding-block: 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.welcome_bg{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 30px;
+    background-color: #2782035e;
+    padding: 0 10%;
+    padding-block: 50px;
+    margin-top: 50px;
+}
+
+.welcome_text p{
+    margin-top: 15px;
+}
+
+.welcome_button button{
+    padding: 15px 40px;
+    background-color: #268203;
+    color: #fff;
+    border: none; 
+    margin-top: 30px;
+}
+.welcome_bg img{
+    width: 250px;
+    height: 300px;
+    border: 2px solid #268203;
+   
+}
+
+.glance_bg{
+    padding: 0 15%;
+    margin-top: 50px;
+}
+
+.glance_heading h1{
+    text-align: center;
+}
+
+.glance_card_bg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.glance_card{
+    margin-top: 50px;
+    padding: 0 10%;
+    background-color: #268203;
+    padding-block: 50px;
+    text-align: center;
+    color: #fff;
+}
+.glance_card h1{
+    margin-bottom: 15px;
+    font-size: 35px;
+   
+}
+
+
+@media only screen and (max-width: 1110px) {
+.hero_bg{
+    display: flex;
+    flex-direction: column;
+}
+.hero_text{
+    margin-block: 50px;
+}
+}
